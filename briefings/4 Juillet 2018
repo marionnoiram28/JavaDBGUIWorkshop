@@ -11,7 +11,7 @@ CORPS DE LA REUNION
   Attente des Listeners de MARION pour selectTable, pour l'écran 2 en lien avec YACINE.
 
 2) Package GUI:
-  Difficultés rencontrées pour la JTable (écran 3), AKIM en lien avec GERALDINE. Saisie grisé dans les écrans.
+  Difficultés rencontrées pour la JTable (écran 3). Saisie grisé dans les écrans. AKIM en lien avec GERALDINE.
 
 3) Package entities:
   Difficultés rencontrées pour la méthode actionPerformed (bouton "Confirm" de l'écran 1). Choix orienté vers un getActioinCommand
