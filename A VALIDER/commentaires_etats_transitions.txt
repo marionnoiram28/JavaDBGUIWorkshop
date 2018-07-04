@@ -1,0 +1,5 @@
+YACINE >>> le premier état ne doit pas s'appeler "tableSelection" mais "dataBaseSelection" ;) pour la suite du diagramme c'est validé
+MARION >>> je reprends les nom des classes d'akim pour une meilleur lisibilité et homogénéité de lecture de l'ensemble du projet :)
+MARION >>> j'ai updater le diagramme (j'ai garder cependant les noms de classe d'aim ) me dire si tu valides comme cela ?
+YACINE >>> on garde comme ça le nommage sera abordé au brief de demain, validé de mon côté
+MARION >>> ok je note 

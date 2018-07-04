@@ -1,0 +1,58 @@
+
+					BRIEFING mardi 2/07 (secrétaire Yacine, président Marion)
+
+ORDRE DU JOUR >>>
+
+1) maquettes/UML
+2) base de données de test
+3) point sur packages
+	a) SQLConnector
+	b) GUI
+	c) entities
+4) objectifs, définir prochain ordre du jour
+5) date et heure de la prochaine réunion
+
+
+CORPS DE LA REUNION >>>
+
+1) Maquettes
+	.TACHE PRIORITAIRE: maquette d'enchaînement des écrans à terminer; cette tâche détermine tout le reste du design de
+	la GUI par Akim;
+	RESPONSABILITE: Géraldine
+	.trois boutons nécessaires pour la mise à jour des tables: "create", "select", "quit"
+	.optionnel: bouton suppress pour supprimer rangée dans une table
+
+2) Base de données de test
+	.mettre data type de toutes les colonnes en String puis poster script sur Git; RESPONSABILITE: Yacine // EFFECTUE
+	.poster diagramme de base de données de test sur Git // EFFECTUE
+
+3) Packages
+
+	DIAGRAMME DE PACKAGES ET DE CLASSES A TERMINER >>> RESPONSABILITE Marion
+	validation nécessaire des diagrammes use-case et classes par l'équipe 
+
+    a) SQLConnector
+	.méthode pour sélectionner une seule table à partir de l'Array List contenant toutes les tables;
+	RESPONSABILITE: Yacine, Géraldine
+    b) GUI
+	.tout le contenu doit être en Anglais
+	.interfacer codage GUI ? RESPONSABILITE: Akim, Yacine
+	.affichage de la table dans JTable ou JTextArea ? la deuxième solution est le plus à notre niveau mais Akim testera la
+	possiblité d'utiliser une JTable
+	.pour la fenêtre d'update de rangée, on utilise un formulaire simple prenant en compte à la fois la création et la modification,
+	moins user-friendly que d'entrer les valeurs à modifier/créer directement dans des champs assignés à cet effet, mais plus
+	réaliste à coder dans les délais
+	.le formulaire d'update/création sera ouvert en surimpression de la fenêtre d'affichage de la table afin que l'utilisateur puisse
+	se souvenir du nom de la ou des colonnes qu'il veut modifier
+	.évolution ultérieure: coder nombre de champs aléatoire à faire remplir par l'utilisateur pour la modification/création de en
+	fonction du nombre de colonnes dans la table
+    c) entities
+	.création des listeners en surveillance étroite de l'évolution de la GUI et du SQLConnector; RESPONSABILITE: Marion
+	.méthode de sélection de table associé à un lister de comboBox; RESPONSABILITE: Marion
+
+
+PROCHAIN BRIEFING
+>>> 7 juillet 16h30: préparer ordre du jour online
+>>> 8 juillet 08h30 briefing en salle de briefing
+
+LECTURES EFFECTUEES: Marion

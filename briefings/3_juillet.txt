@@ -1,0 +1,59 @@
+                                                  Réunion du 03/07/2018
+                                       Président : Yacine ;  Secrétaire : Marion
+ORDRE DU JOUR
+>>> Rappel validation sur GitHub
+>>> UML/Maquettage
+>>> Nom définitif package et classe
+>>> Package SQLConnector
+>>> package IHM
+>>> Package entities
+>>> Questions diverses
+>>> Définition des tâches
+>>> Définition nouveau secrétaire et président
+>>> Définition prochaine reunion
+
+CORPS DE LA REUNION
+1)Rappel validation sur GitHub:
+  L'équipe refléchit à une solution pour améliorer la rapidité de validation par toute l'équipe des projets mis dans le dossier "à valider"
+et la validation des compte rendu de réunion sur  GitHub. L'équipe explique aussi que du fait d'un souci de concentration il s'avère compliquée 77
+de garder une veille permanante sur GitHub. L'équipe se met d'accord sur deux créneaux horaires (11h50 et 14h50) ou chacun devra aller
+valider les fichiers et comptes-rendus présents. De plus, en cas de besoin de validation urgente, l'équipe se consultera en direct.
+
+2)UML/Maquettage:
+  La maquette est terminée et validée. Les diagrammes UML devront être mise à jour avec les noms definitifs. La dernière maquette(états-transitions) est
+  en attente de validation de l'équipe.
+
+3)Nom définitif package et classe:
+  Le package IHM devient le package GUI. La classe SingINDataBaseChoice devient la classe SignInDB. La classe TableName devient la classe
+TableDisplay. La classe UpDateScreen devient la classe UpdateRC. Le package entities devient le package Listeners. La classe AppletItem
+devient la classe ItemEvts. La classe MouseAndActionManagement devient la classe MouseActionEvts.La classe WindEventManagement devient la
+classe FrameEvts.
+
+4)Package SQLConnector:
+  La méthode getOneTable() est en cours de création. Elle permettra en lien avec la combobox Table Name de tirer le nom d'une table de
+l'ArrayList et de l'afficher grâce à la méthode readAllColumns(). Une reflexion est porté sur la manière dont devra être fait le lien
+entre l'ArrayList de la combobox et la méthode getOneTable() et la place de l'ItemListener dans ce fonctionnement.
+  script SQL >>> Le nom adress va être remplacer par address. Le deuxième nom street va être remplacé par country.
+
+5) Package IHM:
+  La méthode pour afficher un JTable est en cours de création avec un test sur une base de données moins conséquentes.
+
+6) Package entities:
+  Les méthodes d'ItemListener sont prioritaires pour rejoindre le travail de la méthode getOneTable(). Elle sont en cours de création. Il
+devra ensuite être abordé les méthodes d'actionListener de la fenêtre TableDisplay.
+
+7)Questions diverses:
+  L'ordre du jour est à rédiger par le secrétaire.Powerpoint présentation du projet à l'ensemble de la classe une fois le TP terminée?
+
+8)Définition des tâches:
+  YACINE >>> Réalisation méthode getOneTable(). changement des noms BD.
+  MARION >>> Réalisation méthodes ItemListener. Maj UML. Rédaction Compte rendu. Si possible, commencer méthodes ActionListener pour la
+  TableDysplay.
+  GERALDINE >>> Création d'un test pour afficher une table avec JTable en lien avec AKIM.
+  AKIM >>> Création JTable avec un test pour afficher une table en lien avec GERALDINE.
+
+PROCHAIN BRIEFING:
+13h30 04/07/2018 Président : Géraldine ; Secrétaire : Akim.
+
+LECTURE EFFECTUE
+Marion , Yacine, Géraldine

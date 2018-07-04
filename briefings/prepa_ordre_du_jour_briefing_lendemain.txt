@@ -1,0 +1,10 @@
+POINTS A ABORDER
+  1) processus de désignation des président et secrétaire du lendemain; pour aujourd'hui veuillez noter ci-dessous qui est volontaire pour président et secrétaire
+    PRESIDENT: Yacine
+    SECRETAIRE: Marion
+  2) le process de validation des éléments ajoutés/modifiés doit être plus rapide, de manière générale la communication doit être
+  améliorée online et tendre vers le temps réel
+  3) établir nommage définitif appli/packages/classes
+  4) diagramme états transitions à terminer
+  5) coder le fait d'obtenir et d'exploiter la table sélectionnée par l'utilisateur(concerne tous les packages)
+  6) besoin de refaire le point sur l'avancée de chacun des packages
