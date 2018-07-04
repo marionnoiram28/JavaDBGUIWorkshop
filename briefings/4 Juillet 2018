@@ -1,0 +1,20 @@
+  Réunion du 04/07/2018
+                                       Président : Géraldine ;  Secrétaire : Akim
+ORDRE DU JOUR
+>>> Package SQLConnector
+>>> package GUI
+>>> Package entities
+>>> Questions diverses
+
+CORPS DE LA REUNION
+1)Package SQLConnector:
+  Attente des Listeners de MARION pour selectTable, pour l'écran 2 en lien avec YACINE.
+
+2) Package GUI:
+  Difficultés rencontrées pour la JTable (écran 3), AKIM en lien avec GERALDINE. Saisie grisé dans les écrans.
+
+3) Package entities:
+  Difficultés rencontrées pour la méthode actionPerformed (bouton "Confirm" de l'écran 1). Choix orienté vers un getActioinCommand
+
+4)Questions diverses:
+  L'ordre du jour est rédigé par le secrétaire.
